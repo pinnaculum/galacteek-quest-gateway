@@ -1,0 +1,23 @@
+{
+  "name": "galacteek-quest-gateway",
+  "version": "1.0.0",
+  "license": "AGPL-3.0",
+  "author": "cipres",
+  "description": "Quest service for galacteek",
+  "main": "src/service.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@questnetwork/quest-os-js": "^0.9.3",
+    "esm": "^3.2.25",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "eslintConfig": {
+    "parsetOptions": {
+      "sourceType": "module"
+    }
+  }
+}
